@@ -5,10 +5,10 @@ import SHA1 from "crypto-js/sha1";
 export default function App() {
   const [images, setImages] = useState([]);
   const [uploading, setUploading] = useState(false);
-  const CLOUD_NAME = "ddh3z1ifa";
+  const CLOUD_NAME = "dnamusvnj";
   const UPLOAD_PRESET = "storage";
-  const API_KEY = "849529682114478";
-  const API_SECRET = "r9AaPoMCwkSlp9Tjt_W9M7fv174";
+  const API_KEY = "881753549824742";
+  const API_SECRET = "BPQl2F9i9KycOhG82q7i0ev_NVU";
   const pickImage = async () => {
     const result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
